@@ -16,7 +16,7 @@ int score = 0;
 Console.WriteLine(question1);
 string response1 = Console.ReadLine();
 
-if (response1 == answer1)
+if (response1.Trim().ToLower() == answer1.Trim().ToLower())
 {
     Console.WriteLine("Your response is correct");
     score++;
@@ -30,7 +30,7 @@ else
 Console.WriteLine(question2);
 string response2 = Console.ReadLine();
 
-if (response2 == answer2)
+if (response2.Trim().ToLower() == answer2.Trim().ToLower())
 {
     Console.WriteLine("Your response is correct");
     score++;
@@ -44,7 +44,7 @@ else
 Console.WriteLine(question3);
 string response3 = Console.ReadLine();
 
-if (response3 == answer3)
+if (response3.Trim().ToLower() == answer3.Trim().ToLower())
 {
     Console.WriteLine("Your response is correct");
     score++;
